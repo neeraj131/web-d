@@ -9,7 +9,7 @@ function cb(error, response, html){
     }
     else
     handlehtml(html)
-}
+} 
 
 function handlehtml(html){
     let seltool= cheerio.load(html)
